@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1d78ba62-7e00-41b6-845a-982fee5113ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{6ad7f355-7999-49da-b7aa-0969195268aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DirectX">
+      <UniqueIdentifier>{709446cf-fa1f-4c95-b70c-ee2b0965907c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Math">
+      <UniqueIdentifier>{3e7ce055-a7db-43f8-8cfe-49a8e190a018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Components">
+      <UniqueIdentifier>{9eb1ff30-6724-4706-8d16-21cee378c4b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shaders">
+      <UniqueIdentifier>{b30d38ab-c913-40be-ad0c-c3f9e6c758db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameObjects">
+      <UniqueIdentifier>{9922f5df-1f56-4cee-979a-465913af0d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Mesh">
+      <UniqueIdentifier>{a76c7ee6-2239-403f-aa49-029eeb3ba9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Audio">
+      <UniqueIdentifier>{7b9248ac-2373-4c14-8c10-e7bf0eb0c869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\UI">
+      <UniqueIdentifier>{699a00af-e412-44c9-813e-6034c0d784ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Scene">
+      <UniqueIdentifier>{7251feb0-e060-41b3-8681-abb0add9083d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Effect">
+      <UniqueIdentifier>{d017183e-b1fb-4979-a0e0-153924f7288d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameObjects\StaticAssets">
+      <UniqueIdentifier>{e951ce93-980a-4f00-9822-529cb8b3885f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameObjects\Actors">
+      <UniqueIdentifier>{4b610693-8579-4023-bae4-61bd41227f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameObjects\DynamicAssets">
+      <UniqueIdentifier>{6ca12693-6b63-4912-a8b0-0c46a1270edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\System">
+      <UniqueIdentifier>{8010d4c3-edbe-4603-ab2a-2e2d7f5606a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Effect\ParticleAssets">
+      <UniqueIdentifier>{10312fc1-6f37-48e4-b3e8-d17f60669d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Components\Move">
+      <UniqueIdentifier>{4eb2a5eb-5993-4cf4-9dc9-64d00b5bc956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Components\Camera">
+      <UniqueIdentifier>{8d0d9244-237e-46b0-afa2-c9e657c1fb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Components\Collision">
+      <UniqueIdentifier>{4dbb364b-bc62-4dfb-877b-81eae166f408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Components\Audio">
+      <UniqueIdentifier>{6f972b1e-a172-45c2-9b2d-d1e8fc0bcc93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Components\Mesh">
+      <UniqueIdentifier>{1fcbecda-6998-4841-84b1-4c362a0daf16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameObjects\SystemObject">
+      <UniqueIdentifier>{9bd44d45-42f1-46cf-8e5a-482e06ed5762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\UI\Elements">
+      <UniqueIdentifier>{d4b3d867-7f7a-4983-a2eb-d3791d9da123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\UI\Screens">
+      <UniqueIdentifier>{a4b057cc-5051-4803-97f9-5f1cd0923630}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectX\DirectX.h">
+      <Filter>Source\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectX\Direct3D.h">
+      <Filter>Source\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\mymath.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Component.h">
+      <Filter>Source\Game\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectX\structs.h">
+      <Filter>Source\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Mesh.h">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Shader.h">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Texture.h">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\VertexArray.h">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Collision.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\AudioSystem.h">
+      <Filter>Source\Game\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\SoundEvent.h">
+      <Filter>Source\Game\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectX\Direct2D.h">
+      <Filter>Source\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Scene.h">
+      <Filter>Source\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\TitleScene.h">
+      <Filter>Source\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\BattleScene.h">
+      <Filter>Source\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectX\RenderPass.h">
+      <Filter>Source\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Particle.h">
+      <Filter>Source\Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\ObjectInstance.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Explosion.h">
+      <Filter>Source\Game\Effect\ParticleAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\PlaneObject.h">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Floor.h">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\SquareBuilding.h">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\FPSObject.h">
+      <Filter>Source\Game\GameObjects\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\EnemyObject.h">
+      <Filter>Source\Game\GameObjects\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Bullet.h">
+      <Filter>Source\Game\GameObjects\DynamicAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\BallObject.h">
+      <Filter>Source\Game\GameObjects\DynamicAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Game.h">
+      <Filter>Source\Game\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\InputSystem.h">
+      <Filter>Source\Game\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\PhysWorld.h">
+      <Filter>Source\Game\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\ParticleEmitter.h">
+      <Filter>Source\Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MuzzleFlash.h">
+      <Filter>Source\Game\Effect\ParticleAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\AudioComponent.h">
+      <Filter>Source\Game\Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\BoxComponent.h">
+      <Filter>Source\Game\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\CameraComponent.h">
+      <Filter>Source\Game\Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\FPSCamera.h">
+      <Filter>Source\Game\Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MoveComponent.h">
+      <Filter>Source\Game\Components\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MoveComponent2.h">
+      <Filter>Source\Game\Components\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\PhysicalMove.h">
+      <Filter>Source\Game\Components\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\SphereComponent.h">
+      <Filter>Source\Game\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MeshComponent.h">
+      <Filter>Source\Game\Components\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\SwarmEnemy.h">
+      <Filter>Source\Game\GameObjects\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\OblongBuilding.h">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Building.h">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Wall.h">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\EnemySpawner.h">
+      <Filter>Source\Game\GameObjects\DynamicAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\EnemyManager.h">
+      <Filter>Source\Game\GameObjects\SystemObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Spark.h">
+      <Filter>Source\Game\Effect\ParticleAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Smoke.h">
+      <Filter>Source\Game\Effect\ParticleAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameManager.h">
+      <Filter>Source\Game\GameObjects\SystemObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Bitmap.h">
+      <Filter>Source\Game\UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\UIScreen.h">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\TitleMenu.h">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Text.h">
+      <Filter>Source\Game\UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Slider.h">
+      <Filter>Source\Game\UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\HUD.h">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\PauseMenu.h">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\ClearStage.h">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameOver.h">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Notification.h">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\SkySphere.h">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\CameraObject.h">
+      <Filter>Source\Game\GameObjects\DynamicAssets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectX\Direct3D.cpp">
+      <Filter>Source\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\mymath.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Component.cpp">
+      <Filter>Source\Game\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Shader.cpp">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Texture.cpp">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\VertexArray.cpp">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Mesh.cpp">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\Collision.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\AudioSystem.cpp">
+      <Filter>Source\Game\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\SoundEvent.cpp">
+      <Filter>Source\Game\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectX\Direct2D.cpp">
+      <Filter>Source\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Scene.cpp">
+      <Filter>Source\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\TitleScene.cpp">
+      <Filter>Source\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\BattleScene.cpp">
+      <Filter>Source\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectX\RenderPass.cpp">
+      <Filter>Source\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Particle.cpp">
+      <Filter>Source\Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\ObjectInstance.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Explosion.cpp">
+      <Filter>Source\Game\Effect\ParticleAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\PlaneObject.cpp">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Floor.cpp">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\SquareBuilding.cpp">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\FPSObject.cpp">
+      <Filter>Source\Game\GameObjects\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\EnemyObject.cpp">
+      <Filter>Source\Game\GameObjects\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Bullet.cpp">
+      <Filter>Source\Game\GameObjects\DynamicAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\BallObject.cpp">
+      <Filter>Source\Game\GameObjects\DynamicAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Game.cpp">
+      <Filter>Source\Game\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\InputSystem.cpp">
+      <Filter>Source\Game\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\PhysWorld.cpp">
+      <Filter>Source\Game\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\ParticleEmitter.cpp">
+      <Filter>Source\Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MuzzleFlash.cpp">
+      <Filter>Source\Game\Effect\ParticleAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\AudioComponent.cpp">
+      <Filter>Source\Game\Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\BoxComponent.cpp">
+      <Filter>Source\Game\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\CameraComponent.cpp">
+      <Filter>Source\Game\Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\FPSCamera.cpp">
+      <Filter>Source\Game\Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MoveComponent.cpp">
+      <Filter>Source\Game\Components\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MoveComponent2.cpp">
+      <Filter>Source\Game\Components\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\PhysicalMove.cpp">
+      <Filter>Source\Game\Components\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\SphereComponent.cpp">
+      <Filter>Source\Game\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MeshComponent.cpp">
+      <Filter>Source\Game\Components\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\SwarmEnemy.cpp">
+      <Filter>Source\Game\GameObjects\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\OblongBuilding.cpp">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Building.cpp">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Wall.cpp">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\EnemySpawner.cpp">
+      <Filter>Source\Game\GameObjects\DynamicAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\EnemyManager.cpp">
+      <Filter>Source\Game\GameObjects\SystemObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Spark.cpp">
+      <Filter>Source\Game\Effect\ParticleAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Smoke.cpp">
+      <Filter>Source\Game\Effect\ParticleAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameManager.cpp">
+      <Filter>Source\Game\GameObjects\SystemObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Bitmap.cpp">
+      <Filter>Source\Game\UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\UIScreen.cpp">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\TitleMenu.cpp">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Slider.cpp">
+      <Filter>Source\Game\UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Text.cpp">
+      <Filter>Source\Game\UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\HUD.cpp">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\ClearStage.cpp">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameOver.cpp">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\PauseMenu.cpp">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Notification.cpp">
+      <Filter>Source\Game\UI\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\SkySphere.cpp">
+      <Filter>Source\Game\GameObjects\StaticAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\CameraObject.cpp">
+      <Filter>Source\Game\GameObjects\DynamicAssets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Game.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\PhongVertex.hlsl">
+      <Filter>Source\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PhongPixel.hlsl">
+      <Filter>Source\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\GausseFilter.hlsl">
+      <Filter>Source\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BloomShader.hlsl">
+      <Filter>Source\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

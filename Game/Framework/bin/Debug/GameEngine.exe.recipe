@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\bin\Debug\GameEngine.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\bin\Debug\BloomShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\bin\Debug\PhongPixel.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\bin\Debug\PhongVertex.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\bin\Debug\GausseFilter.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

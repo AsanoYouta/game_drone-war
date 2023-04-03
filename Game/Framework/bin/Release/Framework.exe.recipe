@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\hinat\source\repos\Game\Game\Framework\bin\Release\Framework.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\hinat\source\repos\Game\Game\Framework\bin\Release\BloomShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\hinat\source\repos\Game\Game\Framework\bin\Release\GausseFilter.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\hinat\source\repos\Game\Game\Framework\bin\Release\PhongPixel.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\hinat\source\repos\Game\Game\Framework\bin\Release\PhongVertex.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

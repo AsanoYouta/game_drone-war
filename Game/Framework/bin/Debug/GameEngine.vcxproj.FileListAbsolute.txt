@@ -1,0 +1,2 @@
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\x64\Debug\GameEngine.exe
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\bin\Debug\Framework.exe

@@ -1,0 +1,94 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(502,5): warning MSB8004: Intermediate ディレクトリの末尾がスラッシュではありません。Intermediate ディレクトリが適切に評価されるようにするために、このビルド インスタンスによってスラッシュが追加されます。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(503,5): warning MSB8004: Output ディレクトリの末尾がスラッシュではありません。Output ディレクトリが適切に評価されるようにするために、このビルド インスタンスによってスラッシュが追加されます。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中間ディレクトリ (.\bin\Debug\) に別のプロジェクト (GameEngine.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  compilation object save succeeded; see C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\bin\Debug\BloomShader.cso
+  compilation object save succeeded; see C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\bin\Debug\GausseFilter.cso
+  compilation object save succeeded; see C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\bin\Debug\PhongPixel.cso
+  compilation object save succeeded; see C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\bin\Debug\PhongVertex.cso
+  main.cpp
+  Direct2D.cpp
+  Direct3D.cpp
+  RenderPass.cpp
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\DirectX\RenderPass.cpp(10,31): warning C4244: '=': 'FLOAT' から 'UINT' への変換です。データが失われる可能性があります。
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\DirectX\RenderPass.cpp(11,32): warning C4244: '=': 'FLOAT' から 'UINT' への変換です。データが失われる可能性があります。
+  AudioComponent.cpp
+  AudioSystem.cpp
+  BattleScene.cpp
+  Building.cpp
+  CameraObject.cpp
+  ClearStage.cpp
+  Notification.cpp
+  EnemyManager.cpp
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\Game\EnemyManager.cpp(82,44): warning C4267: '=': 'size_t' から 'UINT' に変換しました。データが失われているかもしれません。
+  EnemySpawner.cpp
+  GameManager.cpp
+  SkySphere.cpp
+  Slider.cpp
+  Smoke.cpp
+  Spark.cpp
+  SquareBuilding.cpp
+  Bullet.cpp
+  コードを生成中...
+  コンパイル中...
+  EnemyObject.cpp
+  Explosion.cpp
+  Floor.cpp
+  GameOver.cpp
+  HUD.cpp
+  Bitmap.cpp
+  MoveComponent2.cpp
+  MuzzleFlash.cpp
+  ObjectInstance.cpp
+  OblongBuilding.cpp
+  Particle.cpp
+  ParticleEmitter.cpp
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\Game\ParticleEmitter.cpp(72,43): warning C4244: '引数': 'float' から '_Ty' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  PauseMenu.cpp
+  Scene.cpp
+  SphereComponent.cpp
+  SwarmEnemy.cpp
+  Text.cpp
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\Game\Text.cpp(30,2): warning C4267: '引数': 'size_t' から 'UINT32' に変換しました。データが失われているかもしれません。
+  PhysicalMove.cpp
+  BallObject.cpp
+  BoxComponent.cpp
+  コードを生成中...
+  コンパイル中...
+  CameraComponent.cpp
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\Game\CameraComponent.cpp(27,37): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\Game\CameraComponent.cpp(27,26): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  Component.cpp
+  FPSCamera.cpp
+  FPSObject.cpp
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\Game\FPSObject.cpp(254,44): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\Game\FPSObject.cpp(254,30): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  Game.cpp
+  GameObject.cpp
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\Game\GameObject.cpp(37,57): warning C4267: '=': 'size_t' から 'UINT' に変換しました。データが失われているかもしれません。
+  InputSystem.cpp
+  Mesh.cpp
+  MeshComponent.cpp
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\Game\MeshComponent.cpp(41,11): warning C4267: '引数': 'size_t' から 'UINT' に変換しました。データが失われているかもしれません。
+  MoveComponent.cpp
+  PhysWorld.cpp
+  PlaneObject.cpp
+  Shader.cpp
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\Game\Shader.cpp(63,5): warning C4267: '引数': 'size_t' から 'UINT' に変換しました。データが失われているかもしれません。
+  SoundEvent.cpp
+  Texture.cpp
+  TitleMenu.cpp
+  TitleScene.cpp
+C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\Source\Game\TitleScene.cpp(37,14): warning C4101: 'obj': ローカル変数は 1 度も使われていません。
+  UIScreen.cpp
+  VertexArray.cpp
+  Wall.cpp
+  コードを生成中...
+  コンパイル中...
+  Collision.cpp
+  mymath.cpp
+  コードを生成中...
+  GameEngine.vcxproj -> C:\Users\hinat\source\repos\GameEngine0401\GameEngine\GameEngine\bin\Debug\Framework.exe
