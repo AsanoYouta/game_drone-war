@@ -2,21 +2,21 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\hinat\source\repos\Game\Game\Framework\bin\Release\Framework.exe</FullPath>
+      <FullPath>C:\Users\hinat\Documents\GitHub\game_drone-war\Game\Framework\bin\Release\Framework.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\hinat\source\repos\Game\Game\Framework\bin\Release\BloomShader.cso</FullPath>
+      <FullPath>C:\Users\hinat\Documents\GitHub\game_drone-war\Game\Framework\bin\Release\BloomShader.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\hinat\source\repos\Game\Game\Framework\bin\Release\GausseFilter.cso</FullPath>
+      <FullPath>C:\Users\hinat\Documents\GitHub\game_drone-war\Game\Framework\bin\Release\GausseFilter.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\hinat\source\repos\Game\Game\Framework\bin\Release\PhongPixel.cso</FullPath>
+      <FullPath>C:\Users\hinat\Documents\GitHub\game_drone-war\Game\Framework\bin\Release\PhongPixel.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\hinat\source\repos\Game\Game\Framework\bin\Release\PhongVertex.cso</FullPath>
+      <FullPath>C:\Users\hinat\Documents\GitHub\game_drone-war\Game\Framework\bin\Release\PhongVertex.cso</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
