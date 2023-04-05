@@ -5,7 +5,7 @@ const Vector3 Vector3::Zero(0.0f, 0.0f, 0.0f);
 const Vector3 Vector3::Forward(0.0f, 0.0f, 1.0f);
 const Vector3 Vector3::Right(1.0f, 0.0f, 0.0f);
 const Vector3 Vector3::Up(0.0f, 1.0f, 0.0f);
-const Vector3 Vector3::Infinity(math::Inifinity, math::Inifinity, math::Inifinity);
+const Vector3 Vector3::Infinity(math::InfinityF, math::InfinityF, math::InfinityF);
 
 Vector3 Vector3::Rotate(const Vector3& v, const Quaternion& q)
 {

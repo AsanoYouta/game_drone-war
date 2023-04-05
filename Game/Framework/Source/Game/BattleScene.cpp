@@ -29,7 +29,7 @@ void BattleScene::Load()
 	//初期化処理
 	GAME.SetState(Game::State::GamePlay);
 	GAME.GetInputSystem()->SetRelativeMode(true);
-	m_skyColor = XMFLOAT4(0.1f, 0.4f, 0.6f, 1.0f);
+	m_skyColor = XMFLOAT4(0.2f, 0.2f, 0.2f, 1.0f);
 
 	//-----------------------------
 	//静的オブジェクト生成
@@ -124,12 +124,6 @@ void BattleScene::Load()
 	enemyManager->AddSpawnPos(Vector3(width - 200.0f, height, width - 200.0f));
 
 	gameManager->StartGame();
-
-	//auto sp = new GameObject();
-	//auto mc = new MeshComponent(sp);
-	//mc->SetMesh(D3D.GetMesh("Assets/Models/Sphere.gpmesh"));
-	//mc->SetMaterial(material::EmmisiveWhite);
-	//sp->SetPosition(Vector3(width * 0.5f, 100.0f, width * 0.5f));
 }
 
 void BattleScene::Unload()

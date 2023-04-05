@@ -22,7 +22,7 @@ void Text::Draw()
 
 	D2D.GetRT()->DrawTextW(
 		m_text.c_str(),
-		m_text.size(),
+		(UINT32)m_text.size(),
 		m_textFormat.Get(),
 		m_textRect,
 		m_brush.Get(),

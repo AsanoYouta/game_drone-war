@@ -3,6 +3,7 @@
 Shader::Shader()
 	: m_pixelShader(nullptr)
 	, m_vertexShader(nullptr)
+	, m_topology(D3D10_PRIMITIVE_TOPOLOGY_TRIANGLELIST)
 {}
 
 Shader::~Shader()
@@ -60,7 +61,7 @@ bool Shader::CompileVertexShader(
 	}
 
 	// 頂点インプットレイアウト作成
-	if (FAILED(D3D.GetDevice()->CreateInputLayout(&vertexLayout[0], vertexLayout.size(),
+	if (FAILED(D3D.GetDevice()->CreateInputLayout(&vertexLayout[0], (UINT)vertexLayout.size(),
 		compiledVS->GetBufferPointer(), compiledVS->GetBufferSize(),
 		&m_inputLayout)))
 	{

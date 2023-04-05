@@ -27,6 +27,7 @@ public:
 
 private:
 	class GameManager* m_gameManager;
+	class AudioComponent* m_audioComp;
 	std::vector<Vector3> m_spawnerPositions;
 	std::vector<class EnemyObject*> m_enemies;
 	UINT m_curSpawnerNum;

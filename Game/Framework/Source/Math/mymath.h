@@ -10,7 +10,8 @@ using namespace DirectX;
 
 namespace math
 {
-	const float Inifinity = std::numeric_limits<float>::infinity();
+	const float InfinityF = std::numeric_limits<float>::infinity();
+	const int InfinityI = std::numeric_limits<int>::infinity();
 
 	inline float ToRadian(float angle)
 	{
@@ -305,7 +306,7 @@ public:
 		return Vector3(a + (b - a) * f);
 	}
 
-	//a×b
+	//外積a×b
 	static Vector3 Cross(const Vector3& a, const Vector3& b)
 	{
 		Vector3 temp;
@@ -315,7 +316,7 @@ public:
 		return temp;
 	}
 
-	//法線nに対する反射
+	//法線nに対する反射ベクトルを算出
 	static Vector3 Reflect(const Vector3& v, const Vector3& n)
 	{
 		return v - 2.0f * Vector3::Dot(v, n) * n;

@@ -34,7 +34,6 @@ void TitleScene::Load()
 	m_camObj->RotateToNewForward(Vector3::Right);
 
 	float height = 30;
-	GameObject* obj;
 
 	for (int i = 0; i < 6; i++)
 	{

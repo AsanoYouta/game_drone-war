@@ -11,7 +11,6 @@ class Direct2D
 {
 public:
 	bool Initialize(HWND hWnd);
-	void Shutdown();
 
 	void Draw();
 
@@ -47,7 +46,6 @@ private:
 	ComPtr<IDWriteFontFile> m_defFontFile;
 	ComPtr<IDWriteFontSet> m_fontSet;
 	ComPtr<IDWriteFontCollection1> m_fontCollection;
-	Shader* m_spriteShader;
 
 //----------------------------------------------------
 //ƒVƒ“ƒOƒ‹ƒgƒ“

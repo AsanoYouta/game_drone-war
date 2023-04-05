@@ -4,7 +4,9 @@
 class Notification : public UIScreen
 {
 public:
-	Notification(std::wstring text, float displayTime, Vector2 pos = Vector2(0.5f, 0.4f));
+	Notification(std::wstring text, float displayTime, 
+		UINT seNum = 1,
+		Vector2 pos = Vector2(0.5f, 0.4f));
 
 	void Update(float deltaTime) override;
 	void Draw() override;

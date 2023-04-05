@@ -20,6 +20,13 @@ Direct3D::Direct3D()
 	, m_lightBuffer(nullptr)
 	, m_view(XMMatrixIdentity())
 	, m_proj(XMMatrixIdentity())
+	, m_bloomPass(nullptr)
+	, m_gaussPass1(nullptr)
+	, m_gaussPass2(nullptr)
+	, m_hWnd(nullptr)
+	, m_dirLight()
+	, m_cfb()
+	, m_clb()
 {}
 
 bool Direct3D::Initialize(HWND hWnd, int width, int height)
@@ -202,7 +209,7 @@ bool Direct3D::Initialize(HWND hWnd, int width, int height)
 	m_cfb.viewPort.x = m_viewPort.Width;
 	m_cfb.viewPort.y = m_viewPort.Height;
 	m_cfb.options.x = 3.0f; //offset
-	m_cfb.options.y = 1.5f; //intensity
+	m_cfb.options.y = 2.5f; //intensity
 	math::SetGausWeights(m_cfb.gausWeight, 70.0f);
 
 	//レンダリングパス作成(ポストエフェクト)

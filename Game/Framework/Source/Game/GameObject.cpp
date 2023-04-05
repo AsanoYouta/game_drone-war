@@ -34,7 +34,7 @@ GameObject::~GameObject()
 bool GameObject::CreateInstanceBuffer()
 {
 	D3D11_BUFFER_DESC ibDesc;
-	ibDesc.ByteWidth = sizeof(InstanceData) * m_maxInstance;
+	ibDesc.ByteWidth = sizeof(InstanceData) * UINT(m_maxInstance);
 	ibDesc.Usage = D3D11_USAGE_DYNAMIC;
 	ibDesc.BindFlags = D3D11_BIND_VERTEX_BUFFER;
 	ibDesc.CPUAccessFlags = D3D11_CPU_ACCESS_WRITE;

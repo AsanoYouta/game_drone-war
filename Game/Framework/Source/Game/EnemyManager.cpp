@@ -1,6 +1,7 @@
 #include "EnemyManager.h"
 #include "GameManager.h"
 #include "Notification.h"
+#include "AudioComponent.h"
 
 EnemyManager::EnemyManager(GameManager* gameManager, UINT waveNum)
 	:GameObject()
@@ -16,6 +17,7 @@ EnemyManager::EnemyManager(GameManager* gameManager, UINT waveNum)
 	,m_inWave(false)
 {
 	m_gameManager->SetEnemyManager(this);
+	m_audioComp = new AudioComponent(this);
 }
 
 void EnemyManager::AddSpawnPos(const Vector3& pos)
@@ -58,12 +60,11 @@ void EnemyManager::UpdateGameObject(float deltaTime)
 
 			if (m_curWave == m_waveNum)
 			{
-				//SetState(Dead);
 				m_gameManager->ClearGame();
 				DEBUG_LOG("ClearGame\n");
 			}
 
-			new Notification(L"WAVE CLEAR", 2.5f);
+			new Notification(L"WAVE CLEAR", 2.5f, 2);
 			DEBUG_LOG("ClearWave\n");
 		}
 	}
@@ -85,7 +86,7 @@ void EnemyManager::StartWave()
 void EnemyManager::SpawnFromPos(UINT useSpawnerNum)
 {
 	if (useSpawnerNum > m_spawnerPositions.size()) 
-		useSpawnerNum = m_spawnerPositions.size();
+		useSpawnerNum = UINT(m_spawnerPositions.size());
 
 	UINT spawnNum = m_startEnemyNum + m_enemyIncNum * (m_curWave-1);
 	for (UINT i = 0; i < useSpawnerNum; i++)

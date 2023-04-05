@@ -8,6 +8,8 @@ CameraComponent::CameraComponent(GameObject* owner, int updateOrder)
 	,m_velocity(Vector3::Zero)
 	,m_mulAmount(1.0f)
 	,m_maxAmount(Vector2::Zero)
+	,m_lastMove(0.0f)
+	,m_moveInterval(0.0f)
 {
 	std::random_device rnd; //‰ŠúƒV[ƒh
 	m_rnd.seed(rnd());
@@ -24,7 +26,7 @@ void CameraComponent::Update(float deltaTime)
 		m_maxAmount *= m_mulAmount; //U‚è•Œ¸Š
 		std::uniform_real_distribution<> dx(0, m_maxAmount.x);
 		std::uniform_real_distribution<> dy(0, m_maxAmount.y);
-		m_velocity = Vector3(dx(m_rnd), dy(m_rnd), 0.0f);
+		m_velocity = Vector3(float(dx(m_rnd)), float(dy(m_rnd)), 0.0f);
 		m_camPos += m_velocity * deltaTime;
 	}
 }

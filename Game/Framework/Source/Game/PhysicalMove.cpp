@@ -9,7 +9,7 @@ PhysicalMove::PhysicalMove(GameObject* owner, float mass, unsigned int updateOrd
 	, m_addForce(Vector3::Zero)
 	, m_acceleration(Vector3::Zero)
 	, m_velocity(Vector3::Zero)
-	, m_maxSpeed(math::Inifinity)
+	, m_maxSpeed(math::InfinityF)
 	, m_mass(mass)
 	, m_e(0.5f)
 	, m_useGravity(true)
@@ -56,7 +56,7 @@ void PhysicalMove::OnCollision(const CollisionInfo& colInfo)
 
 void PhysicalMove::LimitVelocity()
 {
-	if (m_maxSpeed == math::Inifinity) return;
+	if (m_maxSpeed == math::InfinityF) return;
 
 	float lenSq = m_velocity.LengthSq();
 	float maxSq = m_maxSpeed * m_maxSpeed;

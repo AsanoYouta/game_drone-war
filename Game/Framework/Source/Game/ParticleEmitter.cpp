@@ -69,7 +69,7 @@ void ParticleEmitter::GenerateRandScatter(
 	float mulVec, float addScale,
 	XMFLOAT4 addCol)
 {
-	std::uniform_int_distribution<> force(0, maxForce);
+	std::uniform_real_distribution<> force(0, maxForce);
 	for (UINT i = 0; i < gNumSq; i++)
 	{
 		for (UINT j = 0; j < gNumSq; j++)

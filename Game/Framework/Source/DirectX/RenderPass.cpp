@@ -7,8 +7,8 @@ RenderPass::RenderPass(const std::wstring& shaderName, const std::string& vsEntr
 	//オフスクリーン用テクスチャ作成
 	D3D11_TEXTURE2D_DESC txDesc;
 	ZeroMemory(&txDesc, sizeof(txDesc));
-	txDesc.Width = D3D.m_viewPort.Width;
-	txDesc.Height = D3D.m_viewPort.Height;
+	txDesc.Width = UINT(D3D.m_viewPort.Width);
+	txDesc.Height = UINT(D3D.m_viewPort.Height);
 	txDesc.MipLevels = 1;
 	txDesc.ArraySize = 1;
 	txDesc.SampleDesc.Count = 1;

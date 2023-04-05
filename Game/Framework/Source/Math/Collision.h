@@ -67,14 +67,6 @@ struct Capsule  //球(半径)を持つ線分
 	float m_radius;
 };
 
-struct ConvexPolygon //凸包
-{
-	bool Contains(const Vector2& point) const;
-
-	//時計回りで頂点を格納しておく必要あり
-	std::vector<Vector2> m_vertices;
-};
-
 //バウンディングボリューム間の交差判定
 bool Intersect(const Sphere& a, const Sphere& b);
 bool Intersect(const AABB& a, const AABB& b);

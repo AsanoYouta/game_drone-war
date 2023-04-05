@@ -40,6 +40,7 @@ void GameManager::UpdateGameObject(float deltaTime)
 		if (m_elapsed >= 3.0f)
 		{
 			new ClearStage(m_gameTime);
+			m_audioComp->PlayEvent("event:/Notification2");
 		}
 	}
 }
@@ -54,8 +55,8 @@ void GameManager::StartGame()
 	m_inGame = true;
 	m_enemyManager->StartWave();
 	
-	m_music = m_audioComp->PlayEvent("event:/Music_Level");
-	m_music.SetVolume(0.6f);
+	m_music = m_audioComp->PlayEvent("event:/Music_Level2");
+	m_music.SetVolume(0.30f);
 	DEBUG_LOG("StartGame\n");
 }
 

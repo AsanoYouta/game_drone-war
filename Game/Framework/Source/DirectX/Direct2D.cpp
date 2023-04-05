@@ -4,6 +4,8 @@
 #include "Source/Math/mymath.h"
 
 Direct2D::Direct2D()
+	:m_hwnd(nullptr)
+	,g_defColor()
 {}
 
 bool Direct2D::Initialize(HWND hWnd)
@@ -57,7 +59,7 @@ bool Direct2D::Initialize(HWND hWnd)
 	if (FAILED(DWriteCreateFactory(
 		DWRITE_FACTORY_TYPE_SHARED,
 		__uuidof(IDWriteFactory5),
-		&m_dWriteFactory			//íçà”
+		&m_dWriteFactory
 	))) 
 	{
 		DEBUG_LOG("Failed to Create DWriteFactory\n");

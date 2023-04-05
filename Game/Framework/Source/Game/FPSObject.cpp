@@ -25,7 +25,7 @@ FPSObject::FPSObject()
 	,m_invincibleTime(0.0f)
 	,m_stepCharge(0.0f)
 	,m_oneStepSec(3.0f)
-	,m_alertDist(100.0f)
+	,m_alertDist(150.0f)
 	,m_shootingRate(0.05f)
 	,m_maxSpread(60.0f)
 	,m_remainAmmo(2000)
@@ -251,7 +251,7 @@ void FPSObject::Shoot()
 	//ägéUê›íË
 	std::uniform_real_distribution<> sDist(-m_maxSpread, m_maxSpread);
 	auto bulletForce = Vector3::Normalized(targetPos - bulletStart) * 4500.0f;
-	bulletForce += Vector3(sDist(m_rnd), sDist(m_rnd), 0.0f);
+	bulletForce += Vector3(float(sDist(m_rnd)), float(sDist(m_rnd)), 0.0f);
 
 	Bullet* bullet = new Bullet(this, 0.045f); //45g
 	bullet->SetPosition(bulletStart);

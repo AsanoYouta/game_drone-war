@@ -229,28 +229,6 @@ bool Capsule::Contains(const Vector3& point) const
 	return distSq <= (m_radius * m_radius);
 }
 
-bool ConvexPolygon::Contains(const Vector2& point) const
-{
-	float sum = 0.0f;
-	Vector2 a, b;
-	for (auto i = 0; i < m_vertices.size() - 1; i++)
-	{
-		a = m_vertices[i] - point;
-		a.Normalize();
-		b = m_vertices[i + 1] - point;
-		b.Normalize();
-		//abŠÔ‚ÌŠp“xŽZo
-		sum += std::acosf(Vector2::Dot(a, b));
-	}
-	a = m_vertices.back() - point;
-	a.Normalize();
-	b = m_vertices.front() - point;
-	b.Normalize();
-	sum += std::acosf(Vector2::Dot(a, b));
-	//‡Œv‚ª360“x‚É‹ß‚¢ê‡true
-	return math::NearZero(sum - PI * 2);
-}
-
 bool Intersect(const Sphere& a, const Sphere& b)
 {
 	float dist = (a.m_position - b.m_position).LengthSq();

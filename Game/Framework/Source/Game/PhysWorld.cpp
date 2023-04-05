@@ -50,7 +50,7 @@ void PhysWorld::RemoveSphereComp(SphereComponent* sphere)
 bool PhysWorld::SegmentCast(const LineSegment& line, CollisionInfo& outColl, BoxComponent* exception)
 {
 	bool collided = false;
-	float closestT = math::Inifinity;
+	float closestT = math::InfinityF;
 	Vector3 norm;
 
 	//生成された全てのboxComponentとテスト(接触した最も近いboxを選択)
@@ -87,7 +87,7 @@ bool PhysWorld::SweptAllBoxes(SphereComponent* sphereComp, CollisionInfo& outCol
 	Vector3 p0_p1 = Vector3::Normalized(P1.m_position - P0.m_position);
 	//半径を除外した球間のライン
 	auto l = LineSegment(P0.m_position + (p0_p1 * P0.m_radius), P1.m_position + (p0_p1 * P1.m_radius));
-	float closestT = math::Inifinity;
+	float closestT = math::InfinityF;
 	bool collided = false;
 
 	for (auto b : m_boxComps)

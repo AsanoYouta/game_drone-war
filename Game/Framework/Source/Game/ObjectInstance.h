@@ -2,6 +2,8 @@
 #include "Source/DirectX/DirectX.h"
 #include "GameObject.h"
 
+//ゲームオブジェクトの外見(メッシュ)のインスタンスクラス
+//ゲームオブジェクト１つにつき必ず１つ以上持つ
 class ObjectInstance
 {
 public:

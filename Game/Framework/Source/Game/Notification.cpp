@@ -1,8 +1,9 @@
 #include "Notification.h"
 #include "Game.h"
 #include "FPSObject.h"
+#include "AudioSystem.h"
 
-Notification::Notification(std::wstring text, float displayTime, Vector2 pos)
+Notification::Notification(std::wstring text, float displayTime, UINT seNum, Vector2 pos)
 	:UIScreen()
 	,m_displayTime(displayTime)
 	,m_elapsed(0.0f)
@@ -11,6 +12,19 @@ Notification::Notification(std::wstring text, float displayTime, Vector2 pos)
 
 	m_text.reset(new Text(text, pos, D2D.g_hudFormat3));
 	m_text->SetDrawRect(true);
+
+	switch (seNum)
+	{
+	case 1:
+		GAME.GetAudioSystem()->PlayEvent("event:/Notification1");
+		break;
+	case 2:
+		GAME.GetAudioSystem()->PlayEvent("event:/Notification2");
+		break;
+	default:
+		GAME.GetAudioSystem()->PlayEvent("event:/Notification1");
+		break;
+	}
 }
 
 void Notification::Update(float deltaTime)

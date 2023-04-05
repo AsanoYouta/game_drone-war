@@ -2,7 +2,6 @@
 
 #include "framework.h"
 #include "main.h"
-
 #include "Source/Game/Game.h"
 #include "Source/DirectX/DirectX.h"
 

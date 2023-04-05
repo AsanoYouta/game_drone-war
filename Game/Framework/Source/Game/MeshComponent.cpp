@@ -9,6 +9,7 @@ MeshComponent::MeshComponent(GameObject* owner)
 	:Component(owner)
 	, m_mesh(nullptr)
 	, m_textureIndex(0)
+	, m_material(material::White)
 {
 	D3D.AddMeshComp(this);
 }
@@ -37,7 +38,7 @@ void MeshComponent::Draw()
 		//D3D.GetDeviceContext()->DrawIndexed(va->GetNumIndices(), 0, 0);
 		D3D.GetDeviceContext()->DrawIndexedInstanced(
 			va->GetNumIndices(),
-			m_owner->GetInstances().size(),
+			(UINT)m_owner->GetInstances().size(),
 			0, 0, 0);
 	}
 }
