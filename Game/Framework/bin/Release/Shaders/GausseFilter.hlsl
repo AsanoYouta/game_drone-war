@@ -5,7 +5,7 @@ SamplerState smpr : register(s0);
 cbuffer ConstantBuffer 
 {
 	float2 viewPort; //(width, height)
-	float2 options; //(offset, intensity)
+	float2 options;  //(offset, intensity)
 	float gausWeight[16];
 }
 
@@ -49,11 +49,11 @@ float4 PS_pass1(VS_OUT input) : SV_TARGET
 		col += (tex1.Sample(smpr, input.uv + float2(d.x, 0)*(i*options.x)) 
 			 + tex1.Sample(smpr, input.uv - float2(d.x, 0)*(i*options.x))) * gausWeight[i];
 	}
-	col *= 2;
+	col *= 2.0f;
 	//輝度強調
 	col *= options.y;
 
-	return col*2.0f;
+	return col;
 }
 
 float4 PS_pass2(VS_OUT input) : SV_TARGET
@@ -69,9 +69,7 @@ float4 PS_pass2(VS_OUT input) : SV_TARGET
 		gCol += (tex2.Sample(smpr, input.uv + float2(0, d.y)*(i*options.x)) 
 			 + tex2.Sample(smpr, input.uv - float2(0, d.y)*(i*options.x))) * gausWeight[i];
 	}
-	gCol *= 2;
-	//輝度強調
-	//gCol *= options.y;
+	gCol *= 2.0f;
 
 	return gCol + tex1.Sample(smpr,input.uv);
 }

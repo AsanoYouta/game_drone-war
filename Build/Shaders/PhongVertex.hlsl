@@ -1,6 +1,6 @@
 struct VS_IN
 {
-	//w = 1になっている
+	//w = 1となっている
 	float4 pos : POSITION;
 	float4 nor : NORMAL;
 	float2 tex : TEXCOORD0;

@@ -4,7 +4,7 @@ SamplerState smpr : register(s0);
 cbuffer ConstantBuffer 
 {
 	float2 viewPort; //(width, height)
-	float2 options; //(offset, intensity)
+	float2 options;  //(offset, intensity)
 	float gausWeight[8];
 }
 
